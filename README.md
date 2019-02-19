@@ -1,3 +1,3 @@
 # Firmé
 
-Firmé is commissioning a static website to advertise its design, development, and production services.
+FIRMÉ is a Los Angeles based atelier specializing in the design & development of branded goods.
