@@ -1,0 +1,42 @@
+---
+---
+
+$blue: #0000c7;
+
+nav {
+    border-bottom: 1px solid $blue;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu-burger {
+        width: 32px;
+        height: 3px;
+        margin-bottom: 5px;
+        background: $blue;
+    }
+
+    .menu-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background: white;
+
+        &:not(.open) {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        .menu-item {
+            text-align: right;
+            text-transform: uppercase;
+            color: $blue;
+        }
+    }
+}
