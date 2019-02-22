@@ -11,7 +11,7 @@ html {
 body {
     color: $blue;
     font-size: 1.6rem;
-    background: $off-white;
+    background: white;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: $off-white;
+    background: white;
 
     .nav-logo img {
         height: 3.2rem;
