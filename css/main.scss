@@ -44,7 +44,7 @@ nav {
     right: 0;
     width: 100%;
     background: $blue;
-    z-index: 1;
+    z-index: -1;
     transition: .3s;
 
     &:not(.open) {
@@ -70,16 +70,4 @@ footer {
     list-style: none;
     text-transform: uppercase;
     line-height: 4.8rem;
-}
-
-// LANDING PAGE
-
-.landing {
-    overflow: none;
-    padding: 2.4rem;
-
-    img {
-        width: 100%;
-        margin-right: -2.4rem;
-    }
 }
