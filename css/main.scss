@@ -2,6 +2,7 @@
 ---
 
 $blue: #0000c7;
+$off-white: #f5f3f2;
 
 html {
     font-size: 10px;
@@ -10,6 +11,7 @@ html {
 body {
     color: $blue;
     font-size: 1.6rem;
+    background: $off-white;
 }
 
 nav {
@@ -18,7 +20,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
+    background: $off-white;
 
     .nav-logo img {
         height: 3.2rem;
@@ -63,6 +65,8 @@ footer {
 }
 
 .footer-list {
+    text-align: right;
+    padding: 0 1.6rem;
     list-style: none;
     text-transform: uppercase;
     line-height: 4.8rem;
