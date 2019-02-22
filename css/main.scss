@@ -43,9 +43,11 @@ nav {
     width: 100%;
     background: $blue;
     z-index: -1;
+    transition: .3s;
 
     &:not(.open) {
         transform: translateY(-100%);
+        opacity: 0;
     }
 
     .menu-item {
