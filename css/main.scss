@@ -112,11 +112,21 @@ footer {
 
     img {
         max-width: 100%;
+
+        @media(min-width: 768px){
+            max-width: 50%;
+            float: left;
+        }
     }
     
     p.display {
         font-size: 6.4rem;
         line-height: 5.6rem;
         margin: 3.2rem 0 1.6rem;
+
+        @media(min-width: 768px){
+            font-size: 8.0rem;
+            line-height: 7.2rem;
+        }
     }
 }
