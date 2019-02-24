@@ -73,7 +73,7 @@ nav {
     padding: 3.2rem;
     background: $blue;
     z-index: 1;
-    transition: .3s;
+    transition: .5s ease-out;
 
     &:not(.open) {
         transform: translateX(100%);
