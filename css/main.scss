@@ -137,5 +137,10 @@ footer {
             font-size: 9.6rem;
             line-height: 8.8rem;
         }
+
+        @media(min-width: 1280px){
+            font-size: 10.8rem;
+            line-height: 9.6rem;
+        }
     }
 }
