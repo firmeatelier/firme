@@ -17,7 +17,7 @@ title: Firmé
 email: phuforthought@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   FIRMÉ is a Los Angeles based atelier specializing in the design & development of branded goods.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/firme" # the subpath of your site, e.g. /blog
 url: "https://firme.us" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
