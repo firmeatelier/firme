@@ -103,15 +103,24 @@ nav {
         border-radius: 4.8rem 0 0 0;
         letter-spacing: .02em;
 
-        &.active a::before{
-            content: '> ';
-            margin-right: 0.8rem;
+        a {
+            color: white !important;
+            transition: .3s;
+        }
+
+        &.active a, a:hover {
+            letter-spacing: .8rem;
+            margin-right: -.8rem;
+        
+            &::before {
+                content: '→ ';
+                letter-spacing: 0;
+                margin-right: 1.6rem;
+            }
         }
     }
 
-    a {
-        color: white !important;
-    }
+    
 }
 
 footer {
