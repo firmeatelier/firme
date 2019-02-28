@@ -76,7 +76,7 @@ nav {
     z-index: 10;
     transition: .5s ease-out;
 
-    &::after {
+    &::before {
         content: '';
         display: block;
         width: 1px;
@@ -84,6 +84,16 @@ nav {
         position: absolute;
         top: 8.0rem;
         left: 3.2rem;
+        bottom: 0;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        border-left: 1px dashed white;
+        position: absolute;
+        top: 62.5%;
+        left: 6.4rem;
         bottom: 0;
     }
 
