@@ -102,6 +102,11 @@ nav {
         border-width: 1px 0 0 1px;
         border-radius: 4.8rem 0 0 0;
         letter-spacing: .02em;
+
+        &.active a::before{
+            content: '> ';
+            margin-right: 0.8rem;
+        }
     }
 
     a {
