@@ -47,6 +47,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 10;
 
     .nav-logo img {
         height: 3.2rem;
@@ -72,7 +73,7 @@ nav {
     right: 0;
     padding: 3.2rem;
     background: $blue;
-    z-index: 1;
+    z-index: 10;
     transition: .5s ease-out;
 
     &::after {
@@ -121,7 +122,31 @@ footer {
     overflow: hidden;
 }
 
-// Welcome layout
+// Page layouts
+
+hr {
+    margin: 4.8em;
+    border: 1px solid $blue;
+    position: relative;
+
+    &::before {
+        content: '<';
+        color: $blue;
+        font-size: 3.2rem;
+        position: absolute;
+        left: -4px;
+        bottom: -1.7rem;
+    }
+
+    &::after {
+        content: '>';
+        color: $blue;
+        font-size: 3.2rem;
+        position: absolute;
+        right: -4px;
+        bottom: -1.7rem;
+    }
+}
 
 .landing {
     padding-left: 3.2rem;
