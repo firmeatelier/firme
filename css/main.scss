@@ -12,12 +12,12 @@ html {
 
 @font-face {
     font-family: 'NHG';
-    src: url('../fonts/NHaasGroteskDSPro-55Rg.eot');
-    src: url('../fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/NHaasGroteskDSPro-55Rg.svg#NHaasGroteskDSPro-55Rg') format('svg'),
-         url('../fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'),
-         url('../fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'),
-         url('../fonts/NHaasGroteskDSPro-55Rg.woff2') format('woff2');
+    src: url('{{site.baseurl}}/fonts/NHaasGroteskDSPro-55Rg.eot');
+    src: url('{{site.baseurl}}/fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'),
+         url('{{site.baseurl}}/fonts/NHaasGroteskDSPro-55Rg.svg#NHaasGroteskDSPro-55Rg') format('svg'),
+         url('{{site.baseurl}}/fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'),
+         url('{{site.baseurl}}/fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'),
+         url('{{site.baseurl}}/fonts/NHaasGroteskDSPro-55Rg.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
