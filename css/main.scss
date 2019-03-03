@@ -155,26 +155,26 @@ footer {
 
 hr {
     margin: 4.8em;
-    border: 1px solid $blue;
+    border: 1px dashed $blue;
     position: relative;
 
-    // &::before {
-    //     content: '<';
-    //     color: $blue;
-    //     font-size: 3.2rem;
-    //     position: absolute;
-    //     left: -4px;
-    //     bottom: -1.7rem;
-    // }
+    &::before {
+        content: '\27F5';
+        color: $blue;
+        font-size: 3.2rem;
+        position: absolute;
+        left: -.25em;
+        bottom: -1.25rem;
+    }
 
-    // &::after {
-    //     content: '>';
-    //     color: $blue;
-    //     font-size: 3.2rem;
-    //     position: absolute;
-    //     right: -4px;
-    //     bottom: -1.7rem;
-    // }
+    &::after {
+        content: '\27F6';
+        color: $blue;
+        font-size: 3.2rem;
+        position: absolute;
+        right: -.25em;
+        bottom: -1.25rem;
+    }
 }
 
 .landing {
