@@ -158,23 +158,23 @@ hr {
     border: 1px solid $blue;
     position: relative;
 
-    &::before {
-        content: '<';
-        color: $blue;
-        font-size: 3.2rem;
-        position: absolute;
-        left: -4px;
-        bottom: -1.7rem;
-    }
+    // &::before {
+    //     content: '<';
+    //     color: $blue;
+    //     font-size: 3.2rem;
+    //     position: absolute;
+    //     left: -4px;
+    //     bottom: -1.7rem;
+    // }
 
-    &::after {
-        content: '>';
-        color: $blue;
-        font-size: 3.2rem;
-        position: absolute;
-        right: -4px;
-        bottom: -1.7rem;
-    }
+    // &::after {
+    //     content: '>';
+    //     color: $blue;
+    //     font-size: 3.2rem;
+    //     position: absolute;
+    //     right: -4px;
+    //     bottom: -1.7rem;
+    // }
 }
 
 .landing {
