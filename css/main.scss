@@ -154,26 +154,27 @@ footer {
 // Page layouts
 
 hr {
-    margin: 4.8em;
-    border: 1px dashed $blue;
+    margin: 4.8em auto;
+    border: 1px solid $blue;
     position: relative;
+    width: 75%;
 
     &::before {
-        content: '\27F5';
+        content: '\25C0';
         color: $blue;
-        font-size: 3.2rem;
+        font-size: 1.5rem;
         position: absolute;
-        left: -.25em;
-        bottom: -1.25rem;
+        left: -.5em;
+        bottom: -1rem;
     }
 
     &::after {
-        content: '\27F6';
+        content: '\25B6';
         color: $blue;
-        font-size: 3.2rem;
+        font-size: 1.5rem;
         position: absolute;
-        right: -.25em;
-        bottom: -1.25rem;
+        right: -.5em;
+        bottom: -1rem;
     }
 }
 
