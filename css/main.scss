@@ -259,3 +259,17 @@ hr {
         }
     }
 }
+
+.archive {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media(max-width: 768px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        max-width: 100%;
+        border: 1px solid $blue;
+    }
+}
