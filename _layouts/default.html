@@ -1,41 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Firmé | {{page.title}}</title>
-  <meta name="description" content="Firmé is a Los Angeles based atelier specializing in the design & development of branded goods.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#0000c7">
-    <meta name="msapplication-TileColor" content="#0000c7">
-    <meta name="theme-color" content="#0000c7">
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#0000c7">
-</head>
+{% include head.html %}
 
 <body>
-    <nav>
-        <div class="nav-logo"><a href="{{site.baseurl | prepend: site.url }}/"><img src="img/firme-logo.png" alt="Firmé"></a></div>
-        <div id="menu-toggle">
-            <div class="menu-burger"></div>
-            <div class="menu-burger"></div>
-            <div class="menu-burger"></div>
-        </div>
-
-        <ul id="menu-list">
-            {% for item in site.data.nav.links %}
-                <li class="menu-item {% if item.url == page.url %}active{% endif %}"><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
-            {% endfor %}
-        </ul>
-    </nav>
+    {% include nav.html %}
     <div id="content">
         {{content}}
     </div>
@@ -56,6 +25,6 @@
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
 
-<script src="js/nav.js"></script>
+<script src="{{site.baseurl}}/js/nav.js"></script>
 
 </html>
