@@ -273,3 +273,12 @@ hr {
         border: 1px solid $blue;
     }
 }
+
+.post {
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+        max-width: 50%;
+    }
+}
