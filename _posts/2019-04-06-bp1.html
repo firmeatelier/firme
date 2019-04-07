@@ -6,12 +6,16 @@ image: bp1.jpg
 
 <div class="post">
     <a href="{{ page.previous.url }}">
-        <span class="prev-post">prev</span>
+        <span class="prev-post">
+            <i class="arrow left"></i>
+        </span>
     </a>
     <a href="{{site.baseurl}}/archive.html">
         <img src="{{ site.baseurl }}/archive/{{ page.image }}">
     </a>
     <a href="{{ page.next.url }}">
-        <span class="next-post">next</span>
+        <span class="next-post">
+            <i class="arrow right"></i>
+        </span>
     </a>
 </div>
