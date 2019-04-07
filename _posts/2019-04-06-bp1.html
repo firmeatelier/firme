@@ -5,11 +5,13 @@ image: bp1.jpg
 ---
 
 <div class="post">
-    <!-- <a href="{{ paginator.previous_page_path }}">
+    <a href="{{ page.previous.url }}">
         <span class="prev-post">prev</span>
-    </a> -->
-    <img src="{{ site.baseurl }}/archive/{{ page.image }}">
-    <!-- <a href="{{ paginator.next_page_path }}">
+    </a>
+    <a href="{{site.baseurl}}/archive.html">
+        <img src="{{ site.baseurl }}/archive/{{ page.image }}">
+    </a>
+    <a href="{{ page.next.url }}">
         <span class="next-post">next</span>
-    </a> -->
+    </a>
 </div>
