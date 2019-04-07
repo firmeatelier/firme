@@ -268,9 +268,12 @@ hr {
         grid-template-columns: 1fr 1fr;
     }
 
+    .post-image {
+        border: 1px solid $blue;
+    }
+
     img {
         max-width: 100%;
-        border: 1px solid $blue;
     }
 }
 
