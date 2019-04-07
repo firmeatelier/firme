@@ -15,15 +15,15 @@
     <meta name="msapplication-TileColor" content="#0000c7">
     <meta name="theme-color" content="#0000c7">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 
   <meta name="theme-color" content="#0000c7">
 </head>
 
 <body>
     <nav>
-        <div class="nav-logo"><a href="{{site.baseurl | prepend: site.url }}/"><img src="img/firme-logo.png" alt="Firmé"></a></div>
+        <div class="nav-logo"><a href="{{site.baseurl | prepend: site.url }}/"><img src="{{site.baseurl}}/img/firme-logo.png" alt="Firmé"></a></div>
         <div id="menu-toggle">
             <div class="menu-burger"></div>
             <div class="menu-burger"></div>
@@ -56,6 +56,6 @@
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
 
-<script src="js/nav.js"></script>
+<script src="{{site.baseurl}}/js/nav.js"></script>
 
 </html>
