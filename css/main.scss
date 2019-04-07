@@ -282,6 +282,10 @@ hr {
     img {
         display: inline-block;
         max-width: 50%;
+
+        @media(max-width: 768px) {
+            max-width: 75%;
+        }
     }
 
     .next-post, .prev-post {
@@ -293,6 +297,10 @@ hr {
         top: 50%;
         margin: 2em;
         right: 10%;
+
+        @media(max-width: 768px) {
+            display: none;
+        }
     }
 
     .prev-post {
