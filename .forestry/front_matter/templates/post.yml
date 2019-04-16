@@ -1,4 +1,6 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- type: datetime
+- type: include
