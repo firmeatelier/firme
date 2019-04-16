@@ -1,12 +1,12 @@
 ---
 label: Post
 hide_body: false
+display_field: image
 fields:
 - type: datetime
   label: Date
   name: date
   description: Post date
-- type: include
 - type: file
   name: image
   label: Image
