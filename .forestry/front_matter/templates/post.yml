@@ -3,4 +3,11 @@ label: Post
 hide_body: false
 fields:
 - type: datetime
+  label: Date
+  name: date
+  description: Post date
 - type: include
+- type: file
+  name: image
+  label: Image
+  description: Upload a post image
