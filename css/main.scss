@@ -263,13 +263,18 @@ hr {
 .archive {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    border: 1px solid $blue;
+    background: $blue;
 
     @media(max-width: 768px){
         grid-template-columns: 1fr 1fr;
     }
 
     .post-image {
-        border: 1px solid $blue;
+        height: 0;
+        padding-bottom: 100%;
+        background: white;
     }
 
     img {
