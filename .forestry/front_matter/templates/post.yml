@@ -11,5 +11,3 @@ fields:
   name: image
   label: Image
   description: Upload a post image
-pages:
-- _posts/bp9.md
