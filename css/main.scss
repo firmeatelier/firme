@@ -259,3 +259,81 @@ hr {
         }
     }
 }
+
+.archive {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    border: 1px solid $blue;
+    background: $blue;
+
+    @media(max-width: 768px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .post-image {
+        height: 0;
+        padding-bottom: 100%;
+        background: white;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.post {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    img {
+        display: inline-block;
+        max-width: 50%;
+
+        @media(max-width: 768px) {
+            max-width: 75%;
+        }
+    }
+
+    .next-post, .prev-post {
+        display: inline-block;
+        height: 1px;
+        width: 2em;
+        background: $blue;
+        position: absolute;
+        top: 50%;
+        margin: 2em;
+        right: 10%;
+
+        @media(max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .prev-post {
+        right: auto;
+        left: 10%;
+    }
+
+    i {
+        border: solid $blue;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: .5em;
+        position: absolute;
+        bottom: -.5em;
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        right: 0;
+      }
+      
+      .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        left: 0;
+      }
+}

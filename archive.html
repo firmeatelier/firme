@@ -1,0 +1,14 @@
+---
+title: Archive
+layout: default
+---
+
+<div class="archive">
+    {% for post in site.posts %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="post-image">
+                <img src="{{ site.baseurl }}/archive/{{ post.image }}">
+            </div>
+        </a>
+    {% endfor %}
+</div>
