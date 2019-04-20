@@ -9,16 +9,22 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: directory
+  path: _posts
+  label: posts
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: jekyll-posts
   label: Posts
   create: all
-  templates:
-  - post
 - type: heading
   label: Documentation
 - type: document
   path: README.md
   label: README
+  match: "**/*"
   read_only: true
 upload_dir: archive
 public_path: ''
