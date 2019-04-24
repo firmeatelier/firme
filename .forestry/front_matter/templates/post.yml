@@ -19,6 +19,3 @@ fields:
   name: image
   label: Image
   description: Upload a post image
-pages:
-- _posts/bp-001.md
-- _posts/2019-04-16-coat.md
