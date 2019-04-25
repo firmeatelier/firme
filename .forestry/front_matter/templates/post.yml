@@ -21,14 +21,6 @@ fields:
   description: Upload a post image
 pages:
 - _posts/sh-005.md
-- _posts/sh-004.md
-- _posts/sh-003-1.md
-- _posts/sh-002-1.md
-- _posts/sh-06.md
-- _posts/sh-04.md
-- _posts/sh-003.md
-- _posts/sh-002.md
-- _posts/sh-001.md
 - _posts/hv-016.md
 - _posts/hv-015.md
 - _posts/hv-014.md
