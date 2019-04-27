@@ -6,6 +6,7 @@ fields:
   label: Date
   name: date
   description: Post date
+  default: now
 - type: text
   name: title
   label: Title
