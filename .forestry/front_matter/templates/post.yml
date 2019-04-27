@@ -20,3 +20,9 @@ fields:
   name: image
   label: Image
   description: Upload a post image
+pages:
+- _posts/bp-005.md
+- _posts/bp-004.md
+- _posts/bp-003.md
+- _posts/bp-002.md
+- _posts/bp-001.md
