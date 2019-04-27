@@ -19,16 +19,3 @@ fields:
   name: image
   label: Image
   description: Upload a post image
-pages:
-- _posts/hb-008.md
-- _posts/hb-007.md
-- _posts/hb-006.md
-- _posts/hb-005.md
-- _posts/hb-004.md
-- _posts/hb-003.md
-- _posts/hb-002.md
-- _posts/hb-001.md
-- _posts/bp-015.md
-- _posts/bp-013.md
-- _posts/bp-012.md
-- _posts/bp-011.md
