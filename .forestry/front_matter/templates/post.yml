@@ -21,6 +21,10 @@ fields:
   label: Image
   description: Upload a post image
 pages:
+- _posts/hv-031.md
+- _posts/hv-030.md
+- _posts/hv-029.md
+- _posts/hv-028.md
 - _posts/hv-027.md
 - _posts/hv-026.md
 - _posts/hv-025.md
