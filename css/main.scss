@@ -337,7 +337,7 @@ hr {
   grid-area:title;
   padding-left:3rem;
   color: #0000c7;
-  position:fixed;
+  /*position:fixed;*/
   top: 8rem;
 }
 
@@ -425,7 +425,8 @@ hr {
     /* margin-bottom: 3rem; */
     top: 8rem;
     color: #0000c7;
-    position: fixed;
+    font-size: 1rem;
+    /*position: fixed;*/
 }
 
 .images {
