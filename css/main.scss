@@ -370,7 +370,7 @@ hr {
 .Img-card .info button{
   position: absolute;
   
-  background-color: #0000c7;
+  background-color: white;
   color:white;
   border:none;
   border-radius:25% 25% 0% 25%;
@@ -383,4 +383,81 @@ hr {
 }
 .Img-card img{
   width:50rem;
+}
+
+/*Media Query For Smarth Phones*/
+/*If the browser window is 600px or smaller*/
+@media only screen and (max-width: 800px) {
+ .coloring {
+    display: grid;
+    grid-template-rows: 2rem auto auto;
+    grid-template-columns: 1rem auto 1rem;
+    padding: 5rem;
+    padding-left: 0rem;
+    max-width: 100%;
+    grid-template-areas:
+        "title title title"
+        "images images images"
+        "images images images";
+    overflow-x: scroll;
+}
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-area: title;
+    padding-left: 3rem;
+    /* padding-bottom: 5rem; */
+    /* margin-bottom: 3rem; */
+    top: 8rem;
+    color: #0000c7;
+    position: fixed;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: images;
+    padding: 2rem;
+}
+
+.Img-card {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+    
+.Img-card .info {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    font-size: 1.2em;
+    min-width: 90%;
+    position: relative;
+    color: black;
+    /* flex-direction: column; */
+}
+
+.Img-card .info button {
+    position: absolute;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 25% 25% 0% 25%;
+    right: 0;
+    bottom: 3rem;
+    max-width: 5rem;
+}
+
+.Img-card .info button img{
+  width:100%
+}
+.Img-card img {
+    width: 30.5rem;
+}
+    
 }
