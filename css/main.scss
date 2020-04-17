@@ -381,6 +381,20 @@ hr {
 .Img-card .info button img{
   width:100%
 }
+.Img-card .info a {
+    position: absolute;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 25% 25% 0% 25%;
+    right: 0;
+    bottom: 3rem;
+    max-width: 5rem;
+}
+
+.Img-card .info a img{
+  width:100%
+}
 .Img-card img{
   width:50rem;
 }
@@ -454,6 +468,21 @@ hr {
 }
 
 .Img-card .info button img{
+  width:100%
+}
+    
+.Img-card .info a {
+    position: absolute;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 25% 25% 0% 25%;
+    right: 0;
+    bottom: 3rem;
+    max-width: 5rem;
+}
+
+.Img-card .info a img{
   width:100%
 }
 .Img-card img {
