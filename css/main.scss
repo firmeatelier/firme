@@ -334,7 +334,7 @@ hr {
   justify-content:center;
   align-items:center;
   grid-area:title;
-  color: #4700CC;
+  color: #0000c7;
 }
 
 .images{
@@ -360,12 +360,13 @@ hr {
   font-size:32px;
   min-width:90%;
   position: relative;
+  color:black;
 }
 
 .Img-card .info button{
   position: absolute;
   
-  background-color: #4700CC;
+  background-color: #0000c7;
   color:white;
   border:none;
   border-radius:25% 25% 0% 25%;
