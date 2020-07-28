@@ -6,9 +6,5 @@
             <div class="menu-burger"></div>
         </div>
 
-        <ul id="menu-list">
-            {% for item in site.data.nav.links %}
-                <li class="menu-item {% if item.url == page.url %}active{% endif %}"><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
-            {% endfor %}
-        </ul>
+        
     </nav>
